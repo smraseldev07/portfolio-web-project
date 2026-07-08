@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+}
+img{
+    max-width: 100%;
+}
+
+.wdth-class{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.common-btn{
+    padding: 8px 10px;
+    font-size: 20px;
+    border-radius: 12px;
+    border: none;
+    background-color:  #fd6e0aFF;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.outline-btn{
+    padding: 8px 10px;
+    font-size: 20px;
+    border-radius: 12px;
+    border: 2px solid #fd6e0aFF;
+    background-color: white;
+    color:  #fd6e0aFF;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    
+    padding: 20px;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 30px;
+    align-items: center;
+}
+
+ul li a {
+    text-decoration: none;
+     color: rgb(141, 139, 139);
+}
+
+.logo{
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.logo-r{
+    color:  #fd6e0aFF;;
+}
+
+
+/* hero section start */
+
+.hero-color{
+    background-color: rgb(250, 237, 230);
+}
+
+.hero-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+
+.hero-left h3{
+    font-size: 30px;
+    font-weight: 600;
+    
+}
+
+.hero-left h1{
+    font-size: 55px;
+    font-weight: 700px;
+}
+
+
+/* about section */
+.about-main{
+    background-color: rgb(250, 237, 230);
+    margin-top: 130px;
+    padding: 40px;
+    text-align: center;
+}
+ 
+.about-info{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+/* about section ends */
+/* what i do section */
+.what-i-do-main{
+    text-align: center;
+    margin-top: 130px;
+}
+
+.what-i-do-card-cont{
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.what-i-do-card{
+    text-align: left;
+}
+
+/* my amazing work section */
+
+.my-amazing-cont{
+    text-align: center;
+}
+
+.gridimg{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    grid-auto-rows: 200px;
+
+    grid-template-areas: 
+    "one two three"
+    "four two six"
+    "four five six"
+    
+    ;
+}
+
+.gridimg img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.box-1{
+    grid-area: one;
+}
+
+.box-2{
+ grid-area: two;
+}
+
+.box-3{
+    grid-area: three;
+
+}
+
+.box-4{
+   grid-area: four;
+}
+
+.box-5{
+ grid-area: five;
+
+}
+
+.box-6{
+ grid-area: six;
+}
+
+/* my amazing work end */
+
+/* footer section */
+
+footer{
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+footer form input{
+    background-color: aliceblue;
+    border: none;
+}
